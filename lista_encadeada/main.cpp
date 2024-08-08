@@ -16,7 +16,8 @@ int main(){
 
     cout << "Modifying element at index 2 to 10:" << std::endl;
     list.Modifica(2, 10);  // Modifica o elemento no índice 2 para 10
-
+    list.Remove(0);    //Remove o elemento do índice 0
+    
     cout << "List after modification:" << std::endl;
     list.Exibe();
 
